@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65B390871DB29EE900D1D9E3 /* PreviousAgreementsTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B390861DB29EE900D1D9E3 /* PreviousAgreementsTVC.swift */; };
+		65B390891DB2A58B00D1D9E3 /* DisplayAgreementTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B390881DB2A58B00D1D9E3 /* DisplayAgreementTVC.swift */; };
+		65B3908B1DB2A7A000D1D9E3 /* AgreementsFRC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B3908A1DB2A7A000D1D9E3 /* AgreementsFRC.swift */; };
+		65B3908D1DB2C9E300D1D9E3 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 65B3908C1DB2C9E300D1D9E3 /* Podfile */; };
 		65D8057C1DB1D72400E192C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8057B1DB1D72400E192C2 /* AppDelegate.swift */; };
 		65D8057E1DB1D72400E192C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8057D1DB1D72400E192C2 /* ViewController.swift */; };
 		65D805811DB1D72400E192C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D8057F1DB1D72400E192C2 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		65D805891DB1D72400E192C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D805871DB1D72400E192C2 /* LaunchScreen.storyboard */; };
 		65D805941DB1D72500E192C2 /* E_rnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D805931DB1D72500E192C2 /* E_rnTests.swift */; };
 		65D8059F1DB1D72500E192C2 /* E_rnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8059E1DB1D72500E192C2 /* E_rnUITests.swift */; };
+		65E965EB1DB1DD5C00C70F76 /* CreateAgreementTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E965EA1DB1DD5C00C70F76 /* CreateAgreementTVC.swift */; };
+		65E965EE1DB2070800C70F76 /* Agreement+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E965EC1DB2070800C70F76 /* Agreement+CoreDataClass.swift */; };
+		65E965EF1DB2070800C70F76 /* Agreement+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E965ED1DB2070800C70F76 /* Agreement+CoreDataProperties.swift */; };
+		65E965F11DB2082700C70F76 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E965F01DB2082700C70F76 /* LaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B390861DB29EE900D1D9E3 /* PreviousAgreementsTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviousAgreementsTVC.swift; sourceTree = "<group>"; };
+		65B390881DB2A58B00D1D9E3 /* DisplayAgreementTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayAgreementTVC.swift; sourceTree = "<group>"; };
+		65B3908A1DB2A7A000D1D9E3 /* AgreementsFRC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AgreementsFRC.swift; sourceTree = "<group>"; };
+		65B3908C1DB2C9E300D1D9E3 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = "E:rn/Podfile"; sourceTree = "<group>"; };
 		65D805781DB1D72400E192C2 /* E:rn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E:rn.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D8057B1DB1D72400E192C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		65D8057D1DB1D72400E192C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		65D8059A1DB1D72500E192C2 /* E:rnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E:rnUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		65D8059E1DB1D72500E192C2 /* E_rnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_rnUITests.swift; sourceTree = "<group>"; };
 		65D805A01DB1D72500E192C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65E965EA1DB1DD5C00C70F76 /* CreateAgreementTVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAgreementTVC.swift; sourceTree = "<group>"; };
+		65E965EC1DB2070800C70F76 /* Agreement+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Agreement+CoreDataClass.swift"; path = "Model/Agreement+CoreDataClass.swift"; sourceTree = "<group>"; };
+		65E965ED1DB2070800C70F76 /* Agreement+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Agreement+CoreDataProperties.swift"; path = "Model/Agreement+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		65E965F01DB2082700C70F76 /* LaunchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +95,9 @@
 		65D8056F1DB1D72400E192C2 = {
 			isa = PBXGroup;
 			children = (
+				65B3908C1DB2C9E300D1D9E3 /* Podfile */,
+				65E965EC1DB2070800C70F76 /* Agreement+CoreDataClass.swift */,
+				65E965ED1DB2070800C70F76 /* Agreement+CoreDataProperties.swift */,
 				65D8057A1DB1D72400E192C2 /* E:rn */,
 				65D805921DB1D72500E192C2 /* E:rnTests */,
 				65D8059D1DB1D72500E192C2 /* E:rnUITests */,
@@ -99,9 +118,14 @@
 		65D8057A1DB1D72400E192C2 /* E:rn */ = {
 			isa = PBXGroup;
 			children = (
+				65D8057F1DB1D72400E192C2 /* Main.storyboard */,
 				65D8057B1DB1D72400E192C2 /* AppDelegate.swift */,
 				65D8057D1DB1D72400E192C2 /* ViewController.swift */,
-				65D8057F1DB1D72400E192C2 /* Main.storyboard */,
+				65B390881DB2A58B00D1D9E3 /* DisplayAgreementTVC.swift */,
+				65B390861DB29EE900D1D9E3 /* PreviousAgreementsTVC.swift */,
+				65B3908A1DB2A7A000D1D9E3 /* AgreementsFRC.swift */,
+				65E965EA1DB1DD5C00C70F76 /* CreateAgreementTVC.swift */,
+				65E965F01DB2082700C70F76 /* LaunchViewController.swift */,
 				65D805851DB1D72400E192C2 /* Assets.xcassets */,
 				65D805871DB1D72400E192C2 /* LaunchScreen.storyboard */,
 				65D8058A1DB1D72400E192C2 /* Info.plist */,
@@ -196,6 +220,7 @@
 				TargetAttributes = {
 					65D805771DB1D72400E192C2 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3K4ALTN6AF;
 						ProvisioningStyle = Automatic;
 					};
 					65D8058E1DB1D72500E192C2 = {
@@ -237,6 +262,7 @@
 			files = (
 				65D805891DB1D72400E192C2 /* LaunchScreen.storyboard in Resources */,
 				65D805861DB1D72400E192C2 /* Assets.xcassets in Resources */,
+				65B3908D1DB2C9E300D1D9E3 /* Podfile in Resources */,
 				65D805811DB1D72400E192C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +288,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65E965EE1DB2070800C70F76 /* Agreement+CoreDataClass.swift in Sources */,
+				65E965EB1DB1DD5C00C70F76 /* CreateAgreementTVC.swift in Sources */,
+				65B3908B1DB2A7A000D1D9E3 /* AgreementsFRC.swift in Sources */,
 				65D8057E1DB1D72400E192C2 /* ViewController.swift in Sources */,
+				65B390871DB29EE900D1D9E3 /* PreviousAgreementsTVC.swift in Sources */,
 				65D8057C1DB1D72400E192C2 /* AppDelegate.swift in Sources */,
+				65E965EF1DB2070800C70F76 /* Agreement+CoreDataProperties.swift in Sources */,
+				65E965F11DB2082700C70F76 /* LaunchViewController.swift in Sources */,
+				65B390891DB2A58B00D1D9E3 /* DisplayAgreementTVC.swift in Sources */,
 				65D805841DB1D72400E192C2 /* E_rn.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,9 +449,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K4ALTN6AF;
 				INFOPLIST_FILE = "E:rn/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dcs.E-rn";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcs.E-rn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,9 +462,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3K4ALTN6AF;
 				INFOPLIST_FILE = "E:rn/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "dcs.E-rn";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcs.E-rn";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -509,6 +544,7 @@
 				65D805A51DB1D72500E192C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D805A61DB1D72500E192C2 /* Build configuration list for PBXNativeTarget "E:rnTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +553,7 @@
 				65D805A81DB1D72500E192C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		65D805A91DB1D72500E192C2 /* Build configuration list for PBXNativeTarget "E:rnUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +562,7 @@
 				65D805AB1DB1D72500E192C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
